@@ -52,19 +52,19 @@ This project demonstrates a master-detail UI built with Angular that utilizes th
 To get started with this project, follow these steps:
 
 1. **Clone the repository:**
-
-   ```bash
+         ```bash
    git clone https://github.com/EkromH/Angular_MasterDetails_UI-using-WorldCitiesAPI.git
-
-2.**Navigate to the project directory:**
-   ```bash
+2. **Navigate to the project directory:**
+    ```bash
 cd Angular_MasterDetails_UI-using-WorldCitiesAPI
-
-3. **Install dependencies:**
-   ```bash
+3.**Install dependencies:**
+    ```bash
 npm install
 
+
 4. **Run the application:**
-   ```bash
+    ```bash
 ng serve
+
+
 
