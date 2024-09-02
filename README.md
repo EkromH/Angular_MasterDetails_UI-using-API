@@ -31,13 +31,14 @@ To get started with this project, follow these steps:
    ```bash
    cd Angular_MasterDetails_UI-using-WorldCitiesAPI
 
-3.**Install dependencies:**
+3. **Install dependencies:**
    ```bash
    npm install
-
 4. **Run the application:**
    ```bash
    ng serve
+
+
 
 # Usage
 * View Countries: The application will load and display a list of countries on the main page.
