@@ -56,16 +56,16 @@ To get started with this project, follow these steps:
    git clone https://github.com/EkromH/Angular_MasterDetails_UI-using-WorldCitiesAPI.git
    
 3. **Navigate to the project directory:**
-    ```bash
-cd Angular_MasterDetails_UI-using-WorldCitiesAPI
+   ```bash
+   cd Angular_MasterDetails_UI-using-WorldCitiesAPI
 
 3.**Install dependencies:**
-    ```bash
-npm install
+   ```bash
+   npm install
 
 4. **Run the application:**
-    ```bash
-ng serve
+   ```bash
+   ng serve
 
 
 
