@@ -1,0 +1,161 @@
+.header {
+  text-align: center;
+}
+
+.nav {
+  list-style-type: none;
+  justify-content: center;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+  .nav-item a {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+  }
+
+    .nav-item a.active {
+      font-weight: bold;
+    }
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+.header {
+  background-color: #4caf50;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-name {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* Navbar Styles */
+.nav-bar {
+  background-color: #333;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-logo {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+
+    .nav-item a:hover, .nav-item a.active {
+      background-color: #4caf50;
+    }
+
+/* Mobile Navbar Styles */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger {
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  position: relative;
+}
+
+  .hamburger::before, .hamburger::after {
+    content: '';
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    transition: transform 0.3s ease;
+  }
+
+  .hamburger::before {
+    top: -8px;
+  }
+
+  .hamburger::after {
+    top: 8px;
+  }
+
+.nav-toggle.active .hamburger {
+  transform: rotate(45deg);
+}
+
+  .nav-toggle.active .hamburger::before {
+    transform: rotate(90deg) translateY(-8px);
+  }
+
+  .nav-toggle.active .hamburger::after {
+    transform: rotate(90deg) translateY(8px);
+  }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+  }
+
+    .nav.active {
+      display: flex;
+    }
+
+  .nav-item {
+    text-align: center;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+}
+
+/* Main Content */
+.main-content {
+  padding: 20px;
+}
