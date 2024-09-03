@@ -1,0 +1,166 @@
+/* General Styles */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2, h3, h4, h5 {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  /* Table Styles */
+  .table {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .table th {
+    background-color: #4caf50;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #388e3c;
+  }
+  
+  .table td {
+    border-top: 1px solid #e0e0e0;
+    font-size: 14px;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Button Styles */
+  .btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .btn-info {
+    background-color: #0288d1;
+    color: white;
+  }
+  
+  .btn-info:hover {
+    background-color: #0277bd;
+    transform: scale(1.05);
+  }
+  
+  .btn-danger {
+    background-color: #d32f2f;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c62828;
+    transform: scale(1.05);
+  }
+  
+  /* Form Styles */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 8px rgba(0, 128, 0, 0.2);
+    border-color: #4caf50;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Section Divider */
+  hr {
+    border-top: 1px solid #ddd;
+    margin: 30px 0;
+  }
+  
+  /* Border Box */
+  .border {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Margin Top Utility Classes */
+  .mt-2 {
+    margin-top: 10px;
+  }
+  
+  .mt-3 {
+    margin-top: 20px;
+  }
+  
+  .mt-4 {
+    margin-top: 30px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    h2, h3, h4, h5 {
+      font-size: 18px;
+    }
+  
+    .table th, .table td {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    .btn {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  
+    .form-control {
+      font-size: 12px;
+      padding: 8px;
+    }
+  }
+  
